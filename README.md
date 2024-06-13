@@ -63,7 +63,7 @@ Gaimin Tele Bot supports multiple languages, including English and Russian. Moti
 
 ## Game Logic
 
-![Gaimin](https://github.com/ButtonMania/ButtonMania/raw/main/frontend/src/assets/meme.gif"Gaimin")
+![Gaimin](https://github.com/ButtonMania/ButtonMania/raw/main/frontend/src/assets/meme.gif "Gaimin")
 
  is a delightful and straightforward game that operates within Telegram. Users pick a button from three options: love, peace, or fortune. Premium Telegram users can access an additional button called "prestige." The objective is to hold the chosen button for as long as possible. During gameplay, motivational messages may (or may not, since it's ironic) be displayed. The server maintains a leaderboard and records game sessions. However, only the best results are stored, and users can view their own rankings.
 
