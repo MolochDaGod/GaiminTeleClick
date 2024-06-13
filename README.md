@@ -24,8 +24,8 @@ Please note that there are two parameters (`TG_APP_URL` and `TG_BOT_TOKEN`) that
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/ButtonMania/ButtonMania.git
-cd ButtonMania
+git clone https://github.com//.git
+cd 
 ```
 
 2. Build and run the Docker containers:
@@ -59,13 +59,13 @@ The Telegram bot subroutine contains two commands: `/start`, which displays a me
 
 ## Localization
 
-ButtonMania supports multiple languages, including English and Russian. Motivational messages are generated on the server side and are located at `./backend/localization/<locale>/messages/<button_type>.txt` files. UI strings are managed on the client side and are located at `./fronted/src/locales/<locale>.json`. 🌍
+Gaimin Tele Bot supports multiple languages, including English and Russian. Motivational messages are generated on the server side and are located at `./backend/localization/<locale>/messages/<button_type>.txt` files. UI strings are managed on the client side and are located at `./fronted/src/locales/<locale>.json`. 🌍
 
 ## Game Logic
 
-![ButtonMania](https://github.com/ButtonMania/ButtonMania/raw/main/frontend/src/assets/meme.gif "ButtonMania")
+![](https://github.com///raw/main/frontend/src/assets/meme.gif "")
 
-ButtonMania is a delightful and straightforward game that operates within Telegram. Users pick a button from three options: love, peace, or fortune. Premium Telegram users can access an additional button called "prestige." The objective is to hold the chosen button for as long as possible. During gameplay, motivational messages may (or may not, since it's ironic) be displayed. The server maintains a leaderboard and records game sessions. However, only the best results are stored, and users can view their own rankings.
+ is a delightful and straightforward game that operates within Telegram. Users pick a button from three options: love, peace, or fortune. Premium Telegram users can access an additional button called "prestige." The objective is to hold the chosen button for as long as possible. During gameplay, motivational messages may (or may not, since it's ironic) be displayed. The server maintains a leaderboard and records game sessions. However, only the best results are stored, and users can view their own rankings.
 
 ## Frontend CLI Commands
 
@@ -111,7 +111,7 @@ Here's a list of CLI parameters and corresponding environment variables that you
 
 ## Contributing
 
-ButtonMania is an open-source project, and we welcome contributions from the community. You can help by:
+ is an open-source project, and we welcome contributions from the community. You can help by:
 
 - Adding new localizations.
 - Identifying and fixing bugs.
@@ -122,7 +122,7 @@ Feel free to open pull requests or issues!
 
 ## Donate
 
-If you've enjoyed ButtonMania and would like to support the project, consider making a donation in cryptocurrency. Your contributions help cover hosting costs and other digital expenses. Here are our donation addresses:
+If you've enjoyed  and would like to support the project, consider making a donation in cryptocurrency. Your contributions help cover hosting costs and other digital expenses. Here are our donation addresses:
 
 - **TON**: `UQAaTJqQ4bqy6xxCUV-MSWMsJulwLAP1Dyma5TaA0aGwWiEe`
 - **Ethereum/Binance (ETH/BNB)**: `0x0948A61328b3eCeDa37CC33907F30d4AC06C34Ed`
@@ -137,4 +137,4 @@ Programming by Pavel Litvinenko ([@gerasim13](https://github.com/gerasim13))
 Design and Look and Feel by Maria Litvinenko ([@milk010](https://www.linkedin.com/in/milk010))  
 Original Idea by Stanislav Khimich ([@BoshaKokosha](https://t.me/BoshaKokosha))
 
-🚀 Have fun with ButtonMania! 🚀
+🚀 Have fun with ! 🚀
