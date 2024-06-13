@@ -1,6 +1,6 @@
 # ButtonMania - A Fun Telegram Mini App! 🕹️
 
-![ButtonMania](https://github.com/ButtonMania/ButtonMania/raw/main/frontend/src/assets/poster.png "ButtonMania")
+![Gaimin](https://i.imgur.com/t4qpNUY.jpeg "Gaimin")
 
 🎮 Button Mania is a fun and addictive mini app for Telegram. It consists of a server written in Go using the Gin framework and the Telego library, as well as a client written in TypeScript using the Preact framework. 🚀 Redis works its magic as the main database, storing active sessions, leaderboards, and user records. 💾
 
