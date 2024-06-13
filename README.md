@@ -132,7 +132,7 @@ Your support helps keep this project alive! 😄
 If you've profited from this code, please consider sending some crypto our way, or reach out to discuss collaboration. We have plenty of ideas and skills!
 
 ## Credits
-Design and Gaimin Launch Royalty ([@MolochDaGod](https://github.com/MolochDaGod))
+Design and Gaimin Launch Royalty ([@MolochDaGod](https://github.com/MolochDaGod))  
 Programming by Pavel Litvinenko ([@gerasim13](https://github.com/gerasim13))  
 Design and Look and Feel by Maria Litvinenko ([@milk010](https://www.linkedin.com/in/milk010))  
 Original Idea by Stanislav Khimich ([@BoshaKokosha](https://t.me/BoshaKokosha))
