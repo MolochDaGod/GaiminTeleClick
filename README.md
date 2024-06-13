@@ -1,4 +1,4 @@
-# ButtonMania - A Fun Telegram Mini App! 🕹️
+  # Gaimin Gladiator Button Bot GMRX Burn! 🕹️
 
 ![Gaimin](https://i.imgur.com/t4qpNUY.jpeg "Gaimin")
 
