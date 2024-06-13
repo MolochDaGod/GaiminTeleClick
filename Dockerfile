@@ -4,7 +4,7 @@ FROM node:alpine3.16 as frontend_builder
 
 WORKDIR /frontend
 COPY ./frontend/package.json /frontend/package.json
-
+ 
 ENV NODE_OPTIONS --openssl-legacy-provider
 RUN yarn
 
