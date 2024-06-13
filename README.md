@@ -2,7 +2,7 @@
 
 ![Gaimin](https://i.imgur.com/t4qpNUY.jpeg "Gaimin")
 
-🎮 Button Mania is a fun and addictive mini app for Telegram. It consists of a server written in Go using the Gin framework and the Telego library, as well as a client written in TypeScript using the Preact framework. 🚀 Redis works its magic as the main database, storing active sessions, leaderboards, and user records. 💾
+🎮 Gaimin Tele Burn is a fun and addictive mini app for Telegram. It consists of a server written in Go using the Gin framework and the Telego library, as well as a client written in TypeScript using the Preact framework. 🚀 Redis works its magic as the main database, storing active sessions, leaderboards, and user records. 💾
 
 Want to try it out? You can easily deploy this awesome Telegram mini app on your server and even run it with Docker. It's a hilarious and entertaining game that you can try live at [@ButtonManiaBot](https://t.me/ButtonManiaBot) on Telegram. 🤩
 
