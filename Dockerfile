@@ -30,4 +30,4 @@ COPY --from=backend_builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca
 COPY --from=backend_builder /backend/main /app/server
 COPY --from=frontend_builder /frontend/build /app/static
 COPY ./config.json /app/config.json
-ENTRYPOINT ["/app/server"]
+ENTRYPOINT ["/app/server/GaiminButton"]
