@@ -1,1 +1,23 @@
-Add Gaimin API
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract TelegramButtonGame {
+    address public owner;
+    mapping(address => bool) public hasClicked;
+
+    event TokenPulled(address indexed player);
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    function clickButton() external {
+        require(!hasClicked[msg.sender], "Already clicked");
+        
+        // Perform token transfer logic here
+        // For simplicity, we emit an event to simulate pulling a token
+        emit TokenPulled(msg.sender);
+        
+        hasClicked[msg.sender] = true;
+    }
+}
