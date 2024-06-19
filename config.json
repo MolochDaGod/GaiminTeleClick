@@ -2,7 +2,7 @@
 	"clients": [
 		{
 			"clientId": "buttonmania",
-			"rooms": ["newyear", "peace", "love", "fortune", "prestige"]
+			"rooms": ["Burn", "Bomb", "Feed", "Loss", "Burn"]
 		},
 		{
 			"clientId": "threesixteen",
