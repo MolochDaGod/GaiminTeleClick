@@ -1,0 +1,45 @@
+{
+  "id": "github/GaiminTeleClick",
+  "repository": "MolochDaGod/GaiminTeleClick",
+  "group": "github",
+  "name": "GaiminTeleClick",
+  "source": "C:\\github\\GaiminTeleClick",
+  "buildRoot": "D:\\github\\GaiminTeleClick",
+  "outputRoot": "E:\\github\\GaiminTeleClick",
+  "components": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "relative": "frontend",
+      "output": "frontend",
+      "kind": "web",
+      "buildScript": "build",
+      "launchScript": null,
+      "installer": false,
+      "requires": [
+        "Node.js and npm"
+      ],
+      "notes": [],
+      "webRoot": "build",
+      "launchOptionOnBuildCompletion": true
+    }
+  ],
+  "packages": {
+    "frontend": {
+      "scripts": {
+        "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact build --no-prerender --prerenderUrls ./prerender-urls.json",
+        "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact watch --port 8888 --no-prerender --prerenderUrls ./prerender-urls-debug.json",
+        "serve": "sirv build --cors --single",
+        "lint": "eslint src",
+        "test": "jest"
+      },
+      "packageManager": null,
+      "name": "buttonmania"
+    }
+  },
+  "nativeEntries": [],
+  "preexistingTrackedChanges": [],
+  "releaseOnly": false,
+  "storageProfile": ".storage/profile.json",
+  "storageDevice": ".storage/device.json"
+}

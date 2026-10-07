@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "project": "github/GaiminTeleClick",
+  "name": "GaiminTeleClick",
+  "roles": [
+    {
+      "id": "application",
+      "label": "Installed application",
+      "requiredBytes": 0,
+      "recommendedBytes": 0,
+      "performance": "SSD for application files"
+    },
+    {
+      "id": "runtime",
+      "label": "Live data",
+      "requiredBytes": 0,
+      "recommendedBytes": 0,
+      "performance": "SSD for random access"
+    },
+    {
+      "id": "scratch",
+      "label": "Temporary work and caches",
+      "requiredBytes": 0,
+      "recommendedBytes": 0,
+      "performance": "SSD for staged work"
+    },
+    {
+      "id": "bulk",
+      "label": "Media and retained assets",
+      "requiredBytes": 0,
+      "recommendedBytes": 0,
+      "performance": "HDD for sequential access"
+    },
+    {
+      "id": "backup",
+      "label": "Retained backups",
+      "requiredBytes": 0,
+      "recommendedBytes": 0,
+      "performance": "Miscellaneous HDD"
+    },
+    {
+      "id": "models",
+      "label": "Optional model cache",
+      "requiredBytes": 0,
+      "recommendedBytes": 0,
+      "performance": "SSD for active weights"
+    }
+  ],
+  "payloadBytes": null,
+  "storeMarker": null,
+  "sizeBasis": "No build performed or capacity requirement measured.",
+  "usage": "Telegram web application",
+  "aiModels": "No required local model identified",
+  "releaseRepository": "MolochDaGod/GaiminTeleClick",
+  "publication": "Completed release artifacts only; exclude credentials and personal data.",
+  "requirements": {
+    "frontend": [
+      "Node.js and npm"
+    ]
+  },
+  "environmentRoles": {}
+}

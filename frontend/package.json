@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact build --no-prerender --prerenderUrls ./prerender-urls.json",
+    "build": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\github\\GaiminTeleClick/Build-Workspace.ps1\" -PackageRelative \"frontend\" -Script \"build\" -NoLaunchPrompt",
     "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact watch --port 8888 --no-prerender --prerenderUrls ./prerender-urls-debug.json",
     "serve": "sirv build --cors --single",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "workspace:build": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\github\\GaiminTeleClick/Build-Workspace.ps1\""
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
