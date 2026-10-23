@@ -5,3 +5,6 @@ build
 *.lock
 *.pem
 *.key
+.storage/device.json
+.storage/profile.json
+.workspace-build.json
